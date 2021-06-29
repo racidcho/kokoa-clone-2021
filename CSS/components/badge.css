@@ -1,0 +1,16 @@
+.badge {
+  background-color: tomato;
+  color: white;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  border-radius: 15px;
+}
+.user-components_column:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}

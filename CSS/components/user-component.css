@@ -1,0 +1,69 @@
+.user-components {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-components__column:first-child {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.user-components__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.user-components__title {
+  font-size: 22px;
+  font-weight: 600;
+}
+.user-components__subtitle {
+  margin-top: 11px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.user-components__text {
+  margin-bottom: 10px;
+}
+.friends-screen__channel {
+  display: flex;
+  margin: 10px 20px 0px 20px;
+
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 15px;
+}
+
+.friends-screen__channel-header {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+}
+.fa-chevron-up {
+  margin-top: 3px;
+  margin-right: 10px;
+}
+.user-components__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+.user-components_column:last-child {
+  padding: 50px 30px 50px 0px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.user-components__title--not--bold {
+  font-size: 18px;
+  font-weight: 500;
+}
+.user-components__chats--time {
+  margin-bottom: 10px;
+}
+.user-components_column:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
